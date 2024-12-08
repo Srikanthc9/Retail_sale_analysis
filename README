@@ -1,0 +1,58 @@
+# 🛒 Retail Sales Analysis - SQL Project
+
+## 📄 Dataset Description  
+This project involves the analysis of a retail sales dataset containing key transactional data and customer information. The dataset includes the following key columns:
+
+- **transaction_id**: Unique ID for each sale.
+- **sale_date**: Date of the transaction.
+- **sale_time**: Time of the transaction.
+- **customer_id**: Unique identifier for each customer.
+- **gender**: Gender of the customer.
+- **age**: Age of the customer.
+- **category**: Product category (e.g., Clothing, Beauty, etc.).
+- **quantity**: Number of items sold in the transaction.
+- **price_per_unit**: Price of each unit of the product.
+- **cogs**: Cost of goods sold.
+- **total_sale**: Total sales amount for the transaction (quantity * price_per_unit).
+
+---
+
+## ⚙️ Project Workflow  
+
+### 1️⃣ Data Cleaning  
+- **Null Value Check**: The dataset was first checked for any missing (null) values in key columns, including transaction ID, sale date, and product-related fields.
+- **Action Taken**: Rows with null values in any critical columns were removed to ensure clean data for analysis.
+
+### 2️⃣ Data Exploration  
+This step involved the initial exploration of the dataset to answer basic business questions and understand its structure. Key explorations include:
+- **Total Sales Count**: The total number of sales transactions.
+- **Unique Customers**: The number of distinct customers who made purchases.
+
+### 3️⃣ Data Analysis  
+The dataset was analyzed to address specific business queries:
+- **Total Sales by Category**: The total sales amount for each product category, helping to identify the best-selling categories.
+- **Sales on Specific Date**: Sales data for a particular day (e.g., '2022-11-05').
+- **Transactions for 'Clothing' with Quantity > 3 in November 2022**: Focused on transactions where the 'Clothing' category had a quantity greater than 3, during the specified time frame.
+- **Average Age of Customers Purchasing 'Beauty' Products**: The average age of customers who purchased items in the 'Beauty' category.
+- **Transactions with Total Sales > 1200**: Focused on high-value transactions with total sales above a specified threshold.
+- **Shift-wise Order Analysis**: Categorized transactions based on the time of day (Morning, Afternoon, Evening).
+
+### 4️⃣ Business Problem Solutions  
+The project also addressed several key business problems, offering insights for decision-makers:
+- **Top-Selling Categories**: Identified the top 3 best-selling product categories based on total revenue.
+- **Customer Demographics**: Analyzed the age and gender distribution of customers across different categories.
+- **Daily Revenue**: Calculated daily revenue trends.
+- **Peak Sales Hour**: Identified the hour of the day with the highest sales volume.
+- **Seasonal Trends by Category**: Analyzed monthly sales trends to identify seasonal patterns in different categories.
+
+---
+
+## 📊 Insights and Applications  
+This project provides actionable insights for improving business strategies, such as product allocation, targeted marketing, and optimizing inventory based on customer demographics and sales trends. It supports data-driven decision-making and offers valuable recommendations for retail management.
+
+---
+
+## 📧 Contact  
+**Contributor**: Chavala Srikanth  
+For queries or feedback, please feel free to open an issue or reach out directly.
+
