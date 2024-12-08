@@ -1,4 +1,4 @@
--- SQL Retail Sales Analysis - P1
+-- SQL Retail Sales Analysis - 
 create table retail_sales(transaction_id int primary key,sale_date date,sale_time time,
 customer_id	 int,gender	varchar(10),age int,category varchar(20),quantity int,
 price_per_unit float,cogs float,total_sale float
